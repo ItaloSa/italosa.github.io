@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col } from 'reactstrap';
-import { HeroSection, HeroContainer, HeroHeader, Avatar } from './styles';
+import { HeroHeader, Avatar } from './styles';
 import { CustomSection, CustomContainer } from '../styles';
 
 import Github from '../Github';
