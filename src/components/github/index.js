@@ -22,12 +22,12 @@ const GithubBio = () => {
   return (
     <Row className="mt-4">
       <Col className="d-flex flex-row">
-        <a href={`${REACT_APP_GITHUB_URL}?tab=followers`} rel="noopener noreferrer"><p>Followers {followers}</p></a>
-        <a className="ml-2" href={`${REACT_APP_GITHUB_URL}?tab=following`} rel="noopener noreferrer"><p>Following {following}</p></a>
-        <a className="ml-2" href={`${REACT_APP_GITHUB_URL}?tab=repositories`} rel="noopener noreferrer"><p>Repos {public_repos}</p></a>
-        <p className="ml-2">{' - '}</p>
-        <a className="ml-2" href={REACT_APP_GITHUB_URL} target="_blank" rel="noopener noreferrer"><Icon name="github" /></a>
-      </Col>
+        <a target="_blank" href={`${REACT_APP_GITHUB_URL}?tab=followers`} rel="noopener noreferrer"><p>Followers {followers}</p></a>
+        <a className="ml-3" target="_blank" href={`${REACT_APP_GITHUB_URL}?tab=following`} rel="noopener noreferrer"><p>Following {following}</p></a>
+        <a className="ml-3" target="_blank" href={`${REACT_APP_GITHUB_URL}?tab=repositories`} rel="noopener noreferrer"><p>Repos {public_repos}</p></a>
+        <p className="ml-3">{' - '}</p>
+        <a className="ml-3" target="_blank" href={REACT_APP_GITHUB_URL} rel="noopener noreferrer"><Icon name="github" /></a>
+      </Col> 
     </Row>
   );
 };
