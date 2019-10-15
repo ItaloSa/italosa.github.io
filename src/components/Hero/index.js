@@ -1,13 +1,14 @@
 import React from 'react';
 import { Col } from 'reactstrap';
 import { HeroSection, HeroContainer, HeroHeader, Avatar } from './styles';
+import { CustomSection, CustomContainer } from '../styles';
 
 import Github from '../Github';
 
 const Hero = () => {
   return (
-    <HeroSection>
-      <HeroContainer>
+    <CustomSection dark>
+      <CustomContainer>
         <HeroHeader>
           <Col md="9">
             <h1> Hi, I'm Ítalo </h1>
@@ -22,8 +23,8 @@ const Hero = () => {
           </Col>
         </HeroHeader>
 
-      </HeroContainer>
-    </HeroSection>
+      </CustomContainer>
+    </CustomSection>
   );
 }
 
