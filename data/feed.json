@@ -1,0 +1,27 @@
+[
+  {
+    "date": "Mar 2019 - Today",
+    "title": "Co-founder, BSI Developers Group",
+    "description": "Community focused on encouraging open source culture in the Bachelor of Information Systems course at UFRPE"
+  },
+  {
+    "date": "Mar 2019 - Today",
+    "title": "Intern, Pitang Agile IT",
+    "description": "Web development. Creation of dashboards and SPAs in React and Angular. Building Restful APIs using node. Services development that's uses machine learning with python. Using AWS as a cloud computing services platform."
+  },
+  {
+    "date": "Feb 2018 - Feb 2019",
+    "title": "Intern, Unu Digital",
+    "description": "Web Development. Creation of Single Page Application using AngularJs, HTML5, CSS, JavaScript. Restful API development using PHP with SlimFramework and MySQL database."
+  },
+  {
+    "date": "May 2017 - June 2017",
+    "title": "Microsoft Students to Business",
+    "description": "Web Design Course at Microsoft Innovation Center (ETEPAM) - Recife, PE"
+  },
+  {
+    "date": "May 2017 - June 2021",
+    "title": "Bachelor of Information Systems",
+    "description": "Rural Federal University of Pernambuco - Recife, PE"
+  }
+]
