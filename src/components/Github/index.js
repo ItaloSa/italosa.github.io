@@ -17,7 +17,7 @@ const GithubBio = () => {
     const response = await fetch(`${REACT_APP_GITHUB_API_URL}/users/italosa`);
     const data = await response.json();
     setProfileInfo(data);
-  }
+  };
 
   return (
     <Row className="mt-4">
@@ -27,7 +27,7 @@ const GithubBio = () => {
         <a className="ml-3" target="_blank" href={`${REACT_APP_GITHUB_URL}?tab=repositories`} rel="noopener noreferrer"><p>Repos {public_repos}</p></a>
         <p className="ml-3">{' - '}</p>
         <a className="ml-3" target="_blank" href={REACT_APP_GITHUB_URL} rel="noopener noreferrer"><Icon name="github" /></a>
-      </Col> 
+      </Col>
     </Row>
   );
 };
