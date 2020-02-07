@@ -1,11 +1,16 @@
 [
   {
     "date": "Mar 2019 - Today",
+    "title": "Software Engineer, Pitang Agile IT",
+    "description": "Web development using node and JavaScript frameworks for client side like ReactJS and Angular. Services development that's uses machine learning with python. Using AWS as a cloud computing services platform."
+  },
+  {
+    "date": "Mar 2019 - Today",
     "title": "Co-founder, BSI Developers Group",
     "description": "Community focused on encouraging open source culture in the Bachelor of Information Systems course at UFRPE"
   },
   {
-    "date": "Mar 2019 - Today",
+    "date": "Mar 2019 - Feb 2019",
     "title": "Intern, Pitang Agile IT",
     "description": "Web development. Creation of dashboards and SPAs in React and Angular. Building Restful APIs using node. Services development that's uses machine learning with python. Using AWS as a cloud computing services platform."
   },
