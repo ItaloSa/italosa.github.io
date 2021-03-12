@@ -1,5 +1,6 @@
 export const Theme = {
   colors: {
+    darkBackground: '#1A1B23',
     background: '#282a36',
     currentLine: '#44475a',
     selection: '#44475a',

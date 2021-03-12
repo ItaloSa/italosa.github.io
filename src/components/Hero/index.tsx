@@ -6,7 +6,7 @@ import Github from '../Github';
 
 const Hero: React.FC = () => {
   return (
-    <CustomSection>
+    <CustomSection dark>
       <CustomContainer className="container">
         <HeroHeader className="row">
           <div className="col-md-9">
