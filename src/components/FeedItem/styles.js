@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { COLOR_LIGHT, COLOR_DARK } from '../styles';
 
 export const Box = styled.div`
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
@@ -9,18 +8,18 @@ export const Box = styled.div`
 `;
 
 export const BoxDate = styled.span`
-  color: ${COLOR_LIGHT};
+  color: #fff;
   font-size: 14px;
 `;
 
 export const BoxTitle = styled.h1`
-  color: ${COLOR_DARK};
+  color: #fff;
   font-weight: 600;
   font-size: 34px;
 `;
 
 export const BoxContent = styled.p`
-  color: ${COLOR_DARK};
+  color: #fff;
   font-size: 18px;
   margin-bottom: 0;
 `;

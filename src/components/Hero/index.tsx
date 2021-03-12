@@ -4,12 +4,12 @@ import { CustomSection, CustomContainer } from '../styles';
 
 import Github from '../Github';
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
-    <CustomSection dark>
+    <CustomSection>
       <CustomContainer className="container">
-        <HeroHeader>
-          <div className="md-9">
+        <HeroHeader className="row">
+          <div className="col-md-9">
             <h1> Hi, I'm Ítalo </h1>
             <p>I ❤ code</p>
             <h4>
@@ -18,13 +18,14 @@ const Hero = () => {
             </h4>
             <Github />
           </div>
-          <div className="md-3">
+          <div className="col-md-3">
             <div className="d-flex justify-content-center">
-              <Avatar
-                object
-                src="https://avatars2.githubusercontent.com/u/28374391?s=200"
-                alt="Italo Sousa"
-              />
+              <div className="media">
+                <Avatar
+                  src="https://avatars2.githubusercontent.com/u/28374391?s=200"
+                  alt="Generic placeholder image"
+                />
+              </div>
             </div>
           </div>
         </HeroHeader>
