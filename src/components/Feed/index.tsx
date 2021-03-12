@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CustomSection, CustomContainer } from '../styles';
 import FeedItem from '../FeedItem';
 
-const Feed = () => {
+const Feed: React.FC = () => {
   const [feedData, setFeedData] = useState([]);
 
   useEffect(() => {
