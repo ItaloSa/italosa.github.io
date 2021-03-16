@@ -1,11 +1,17 @@
-// import Navbar from '../components/Navbar';
+import { useEffect } from 'react';
+
 import Hero from '../components/Hero';
 import Feed from '../components/Feed';
+import { initGA, gaPageView } from '../services/analytics';
 
 export default function Main() {
+  useEffect(() => {
+    initGA();
+    gaPageView();
+  }, []);
+
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
       <Feed />
     </>
