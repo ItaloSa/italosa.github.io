@@ -1,26 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { CustomSection, CustomContainer } from '../styles';
 import FeedItem from '../FeedItem';
+import { FeedDataType } from '../../data';
 
-const Feed: React.FC = () => {
-  const [feedData, setFeedData] = useState([]);
+type FeedProps = {
+  data: FeedDataType;
+};
 
-  useEffect(() => {
-    getData();
-  }, []);
-
-  const getData = async () => {
-    const response = await fetch(`/data/feed.json`);
-    const data = await response.json();
-    setFeedData(data);
-  };
-
+const Feed: React.FC<FeedProps> = ({ data }) => {
   return (
     <CustomSection>
       <CustomContainer className="container">
-        {feedData.length
-          ? feedData.map((item, idx) => <FeedItem data={item} key={`feed-item-${idx}`} />)
-          : null}
+        {data.map((item, idx) => (
+          <FeedItem data={item} key={`feed-item-${idx}`} />
+        ))}
       </CustomContainer>
     </CustomSection>
   );
