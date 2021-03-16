@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FaGithub } from 'react-icons/fa';
 import { Link } from './styled';
 
 const NEXT_PUBLIC_GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL;
@@ -50,15 +49,6 @@ const GithubBio: React.FC = () => {
           rel="noopener noreferrer"
         >
           Repos {public_repos}
-        </Link>
-        <p className="ml-3">{' - '}</p>
-        <Link
-          className="ml-3"
-          target="_blank"
-          href={NEXT_PUBLIC_GITHUB_URL}
-          rel="noopener noreferrer"
-        >
-          <FaGithub size="1.2rem" />
         </Link>
       </div>
     </div>

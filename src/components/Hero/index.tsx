@@ -3,6 +3,7 @@ import { HeroHeader, Avatar } from './styles';
 import { CustomSection, CustomContainer } from '../styles';
 
 import Github from '../Github';
+import Social from '../Social';
 
 const Hero: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Hero: React.FC = () => {
               develop and learn technologies that can positively impact society.
             </h4>
             <Github />
+            <Social />
           </div>
           <div className="col-md-3">
             <div className="d-flex justify-content-center">
