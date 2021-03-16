@@ -3,7 +3,6 @@ import ReactGA from 'react-ga';
 const { NEXT_PUBLIC_GA_ID } = process.env;
 
 export const initGA = () => {
-  console.log(NEXT_PUBLIC_GA_ID);
   ReactGA.initialize(NEXT_PUBLIC_GA_ID);
 };
 

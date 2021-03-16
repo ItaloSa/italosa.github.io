@@ -13,6 +13,7 @@ export default function Social() {
         href="https://github.com/italosa"
         rel="noopener noreferrer"
         onClick={trackClick}
+        aria-label="Link to access Italo's GitHub profile"
       >
         <FaGithub size="1.2rem" />
       </Link>
@@ -22,6 +23,7 @@ export default function Social() {
         href="https://linkedin.com/in/sousaitalo"
         rel="noopener noreferrer"
         onClick={trackClick}
+        aria-label="Link to access Italo's LinkedIn profile"
       >
         <FaLinkedin size="1.2rem" />
       </Link>
@@ -31,6 +33,7 @@ export default function Social() {
         href="https://dev.to/anditsou"
         rel="noopener noreferrer"
         onClick={trackClick}
+        aria-label="Link to access Italo's DEV profile"
       >
         <FaDev size="1.2rem" />
       </Link>
@@ -40,6 +43,7 @@ export default function Social() {
         href="https://twitter.com/anditsou"
         rel="noopener noreferrer"
         onClick={trackClick}
+        aria-label="Link to access Italo's Twitter profile"
       >
         <FaTwitter size="1.2rem" />
       </Link>

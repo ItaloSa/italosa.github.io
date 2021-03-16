@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
               <div className="media">
                 <Avatar
                   src="https://avatars2.githubusercontent.com/u/28374391?s=200"
-                  alt="Generic placeholder image"
+                  alt="A pic of Italo Sousa looking down left"
                 />
               </div>
             </div>
