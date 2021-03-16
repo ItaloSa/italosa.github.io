@@ -1,6 +1,11 @@
 [
   {
-    "date": "Mar 2019 - Today",
+    "date": "Sep 2020 - Present",
+    "title": "Software Engineer, iFood",
+    "description": "Web development using modern frameworks such ReactJS"
+  },
+  {
+    "date": "Mar 2019 - Sep 2020",
     "title": "Software Engineer, Pitang Agile IT",
     "description": "Web development using node and JavaScript frameworks for client side like ReactJS and Angular. Services development that's uses machine learning with python. Using AWS as a cloud computing services platform."
   },
