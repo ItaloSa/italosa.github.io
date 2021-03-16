@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Feed from '../components/Feed';
 import { initGA, gaPageView } from '../services/analytics';
 import { FeedData, FeedDataType } from '../data';
+import Seo from '../components/Seo';
 
 export default function Main(props: { FeedData: FeedDataType }) {
   useEffect(() => {
@@ -13,6 +14,7 @@ export default function Main(props: { FeedData: FeedDataType }) {
 
   return (
     <>
+      <Seo />
       <Hero />
       <Feed data={props.FeedData} />
     </>
