@@ -6,9 +6,8 @@ export default function Social() {
   const trackClick = (event) => gaEvent('Clicked Icon', event.currentTarget.href);
 
   return (
-    <div className="row mt-2">
+    <div className="grid mt-2 mb-3">
       <Link
-        className="ml-3"
         target="_blank"
         href="https://github.com/italosa"
         rel="noopener noreferrer"
@@ -18,7 +17,7 @@ export default function Social() {
         <FaGithub size="1.2rem" />
       </Link>
       <Link
-        className="ml-3"
+        className="ms-3"
         target="_blank"
         href="https://linkedin.com/in/sousaitalo"
         rel="noopener noreferrer"
@@ -28,7 +27,7 @@ export default function Social() {
         <FaLinkedin size="1.2rem" />
       </Link>
       <Link
-        className="ml-3"
+        className="ms-3"
         target="_blank"
         href="https://dev.to/anditsou"
         rel="noopener noreferrer"
@@ -38,7 +37,7 @@ export default function Social() {
         <FaDev size="1.2rem" />
       </Link>
       <Link
-        className="ml-3"
+        className="ms-3"
         target="_blank"
         href="https://twitter.com/anditsou"
         rel="noopener noreferrer"

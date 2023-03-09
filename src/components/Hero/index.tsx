@@ -14,10 +14,9 @@ const Hero: React.FC = () => {
             <h1> Hi, I'm Ítalo </h1>
             <p>I ❤ code</p>
             <h4>
-              Passionate about the incredible world of software development, always seeking to
-              develop and learn technologies that can positively impact society.
+            I'm a passionate software engineer with a love for exploring the latest technologies and tools. With a background in web development, I specialize in creating innovative solutions to solve complex business issues. What excites me most about software development is the potential to make a positive impact on society.
             </h4>
-            <Github />
+            {/* <Github /> */}
             <Social />
           </div>
           <div className="col-md-3">
@@ -25,7 +24,7 @@ const Hero: React.FC = () => {
               <div className="media">
                 <Avatar
                   src="https://avatars2.githubusercontent.com/u/28374391?s=200"
-                  alt="A pic of Italo Sousa looking down left"
+                  alt="A photo of Italo Sousa"
                 />
               </div>
             </div>

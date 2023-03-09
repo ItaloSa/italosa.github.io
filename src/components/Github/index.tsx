@@ -31,11 +31,11 @@ const GithubBio: React.FC = () => {
           target="_blank"
           href={`${NEXT_PUBLIC_GITHUB_URL}?tab=followers`}
           rel="noopener noreferrer"
-        >
+          >
           Followers {followers}
         </Link>
         <Link
-          className="ml-3"
+          className="ms-3"
           target="_blank"
           href={`${NEXT_PUBLIC_GITHUB_URL}?tab=following`}
           rel="noopener noreferrer"
@@ -43,7 +43,7 @@ const GithubBio: React.FC = () => {
           Following {following}
         </Link>
         <Link
-          className="ml-3"
+          className="ms-3"
           target="_blank"
           href={`${NEXT_PUBLIC_GITHUB_URL}?tab=repositories`}
           rel="noopener noreferrer"

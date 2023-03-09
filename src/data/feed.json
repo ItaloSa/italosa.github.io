@@ -1,28 +1,28 @@
 [
   {
-    "date": "Sep 2020 - Present",
+    "date": "Sep 2020 - Mar 2023",
     "title": "Software Engineer, iFood",
-    "description": "Web development using modern frameworks such ReactJS"
+    "description": "Member of a team responsible for creating tools to empower the fraud prevention team, I played a key role in web development using ReactJS. I utilized my skills in developing and refactoring multiple features in several apps using TypeScript and tools that are part of high-scale development in web applications. I also worked alongside a group of professionals responsible for defining and creating standards and processes for the company’s web applications. In addition as a core member of the company's inner source design system, I was an advocate of the library and responsible for the engineering solutions as well as its maintenance."
+  },
+  {
+    "date": "May 2020 - May 2021",
+    "title": "Student Ambassador, AWS Educate",
+    "description": "Dedicated to introducing students in my local community to the powerful tools and resources available on the Amazon Web Services platform. By sharing my knowledge and promoting events, webinars, and courses, I aimed to create opportunities for students to learn and grow in the field of cloud computing."
+  },
+  {
+    "date": "Mar 2019",
+    "title": "Co-founder, UFRPE Devs",
+    "description": "The organization aims to foster an inclusive community dedicated to sharing information and resources related to open-source software development and culture. By creating an open space for collaboration, the organization encourages the exchange of ideas and knowledge among individuals with diverse backgrounds and experiences."
   },
   {
     "date": "Mar 2019 - Sep 2020",
     "title": "Software Engineer, Pitang Agile IT",
-    "description": "Web development using node and JavaScript frameworks for client side like ReactJS and Angular. Services development that's uses machine learning with python. Using AWS as a cloud computing services platform."
-  },
-  {
-    "date": "Mar 2019 - Today",
-    "title": "Co-founder, BSI Developers Group",
-    "description": "Community focused on encouraging open source culture in the Bachelor of Information Systems course at UFRPE"
-  },
-  {
-    "date": "Mar 2019 - Feb 2019",
-    "title": "Intern, Pitang Agile IT",
-    "description": "Web development. Creation of dashboards and SPAs in React and Angular. Building Restful APIs using node. Services development that's uses machine learning with python. Using AWS as a cloud computing services platform."
+    "description": "Contributed to creating innovative products for the client. My role involved web development using cutting-edge technologies such as node and JavaScript frameworks like ReactJS, Express and Angular, as well as developing services that used machine learning with Python. Additionally, I utilized the AWS as cloud computing services platform."
   },
   {
     "date": "Feb 2018 - Feb 2019",
     "title": "Intern, Unu Digital",
-    "description": "Web Development. Creation of Single Page Application using AngularJs, HTML5, CSS, JavaScript. Restful API development using PHP with SlimFramework and MySQL database."
+    "description": "As a web development intern, I worked on a single-page application using AngularJS, HTML5, CSS, and JavaScript. Additionally, I gained valuable hands-on experience in developing a RESTful API using PHP with SlimFramework and MySQL."
   },
   {
     "date": "May 2017 - June 2017",
@@ -30,7 +30,7 @@
     "description": "Web Design Course at Microsoft Innovation Center (ETEPAM) - Recife, PE"
   },
   {
-    "date": "May 2017 - June 2021",
+    "date": "2017",
     "title": "Bachelor of Information Systems",
     "description": "Rural Federal University of Pernambuco - Recife, PE"
   }
