@@ -18,7 +18,7 @@
     "dev": "next dev",
     "build": "next build && next export -o build/ && cp CNAME build/",
     "start": "next start",
-    "deploy": "git subtree push --prefix build origin master",
+    "deploy": "git push origin `git subtree split --prefix build develop`:master --force",
     "serve": "serve -s build",
     "resolve-conflicts": "grep -lr '<<<<<<<' . | xargs git checkout --ours",
     "prettier": "prettier \"src/**/*{.js,.ts,.tsx,.css,.json}\"",
