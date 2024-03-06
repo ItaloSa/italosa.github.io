@@ -1,5 +1,10 @@
 [
   {
+    "date": "Apr 2023 - Feb 2024",
+    "title": "Software Engineer, Isaac",
+    "description": "Contributed to a crucial part of the company's flagship product, influencing technical decisions, and enhancing the user experience. Also, led the frontend chapter of the department. Worked primarily with ReactJS and the Next.js framework, in addition to key libraries for componentization and state management. Utilized Jest with RTL for automated testing. Employed Sentry and Datadog for monitoring."
+  },
+  {
     "date": "Sep 2020 - Mar 2023",
     "title": "Software Engineer, iFood",
     "description": "Member of a team responsible for creating tools to empower the fraud prevention team, I played a key role in web development using ReactJS. I utilized my skills in developing and refactoring multiple features in several apps using TypeScript and tools that are part of high-scale development in web applications. I also worked alongside a group of professionals responsible for defining and creating standards and processes for the company’s web applications. In addition as a core member of the company's inner source design system, I was an advocate of the library and responsible for the engineering solutions as well as its maintenance."
