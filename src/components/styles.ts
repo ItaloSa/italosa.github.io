@@ -12,5 +12,4 @@ export const CustomSection = styled.section<CustomSectionProps>`
 
 export const CustomContainer = styled.div`
   padding: 20px;
-  max-width: 640px !important;
 `;

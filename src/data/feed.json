@@ -1,6 +1,11 @@
 [
   {
-    "date": "Apr 2023 - Feb 2024",
+    "date": "Apr 2023 - Today",
+    "title": "Senior Software Engineer, Cielo",
+    "description": "Contributing to the development and evolution of a hybrid application through webview. Working on a project with microfrontends built with Webpack module federation in Angular2+. Providing mentorship to junior peers."
+  },
+  {
+    "date": "Apr 2023 - Mar 2024",
     "title": "Software Engineer, Isaac",
     "description": "Contributed to a crucial part of the company's flagship product, influencing technical decisions, and enhancing the user experience. Also, led the frontend chapter of the department. Worked primarily with ReactJS and the Next.js framework, in addition to key libraries for componentization and state management. Utilized Jest with RTL for automated testing. Employed Sentry and Datadog for monitoring."
   },
